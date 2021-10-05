@@ -39,4 +39,6 @@ img {
     width: 120px;
     height: 80px;
     border-radius: 5px;
+    /*Colocando a imagem a direita*/
+    float: right;
 }
