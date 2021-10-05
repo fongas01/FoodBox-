@@ -1,0 +1,42 @@
+*root {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: red;
+    color: white;
+    padding: 3px;
+    border-radius: 10px;
+}
+
+body {
+    background: #d3d3d3;
+}
+
+h1 {
+    margin: 10px;
+}
+
+h2 {
+    margin: 10px;
+}
+
+h3 {
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+p {
+    margin: 10px;
+}
+
+h4 {
+    margin: 10px;
+}
+
+img {
+    width: 120px;
+    height: 80px;
+    border-radius: 5px;
+}
