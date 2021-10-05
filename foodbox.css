@@ -54,3 +54,23 @@ img {
     /*quando selecionar a div aparece a maozinha*/
     margin-bottom: 10px;
 }
+
+.btn {
+    text-align: center;
+    background: green;
+    color: #ffffff;
+    font-size: 15px;
+    border: 5px solid lightgreen;
+    border-radius: 50px;
+    padding: 15px;
+    margin-bottom: 0px;
+    cursor: pointer;
+}
+
+footer {
+    margin-top: 10px;
+    padding: 15px;
+    background: #aaa;
+    color: black;
+    text-align: center;
+}
