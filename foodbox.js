@@ -1,3 +1,9 @@
+// Variáveis criadas como solicitadas no passo 1
+let prato;
+let bebida;
+let sobremesa;
+
+
 //Produto selecionado FICA COM AS BORDAS EM VERDE
 
 function escolherFrango() {
@@ -5,7 +11,7 @@ function escolherFrango() {
     document.getElementById("carne").style.borderColor = "white";
 }
 
-//Agora para que alternância das cores nas bordas em relação ao produto selecionado
+// Alternância das cores nas bordas em relação ao produto selecionado
 function escolherCarne() {
     document.getElementById("carne").style.borderColor = "green";
     document.getElementById("frango").style.borderColor = "white";
@@ -32,3 +38,6 @@ function escolherSorvete() {
     document.getElementById("sorvete").style.borderColor = "green";
     document.getElementById("pudim").style.borderColor = "white";
 }
+
+// FAZER FUNCIONAR O BOTAO DE ENVIO DO PEDIDO PELO WHATSAPP
+// ...... 1 - Criar variável FORA DA FUNCTION para cada item a ser selecionado;
