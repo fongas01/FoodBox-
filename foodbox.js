@@ -37,15 +37,24 @@ function escolherRefresco() {
 function escolherPudim() {
     document.getElementById("pudim").style.borderColor = "green";
     document.getElementById("sorvete").style.borderColor = "white";
-    sobremesa = "Pudim."
+    sobremesa = "Pudim.";
 }
 
 function escolherSorvete() {
     document.getElementById("sorvete").style.borderColor = "green";
     document.getElementById("pudim").style.borderColor = "white";
-    sobremesa = "Sorvete."
+    sobremesa = "Sorvete.";
 }
 
 // FAZER FUNCIONAR O BOTAO DE ENVIO DO PEDIDO PELO WHATSAPP
 // ...... 1 - Criar variável FORA DA FUNCTION para cada item a ser selecionado;
 // ...... 2 - DENTRO DA FUNCTION, atribuiremos os valores respectivos;
+// ...... 3 - Criar a função para o envio pelo whatsapp 
+//e a variável DENTRO DA FUNCTION que conterá a mensagem a er enviada
+
+function finalizarPedido() {
+    let mensagem;
+
+    mensagem = ("Olá, gostaria de pedir um combo: " +
+        prato + ", " + bebida ", " + "e " + sobremesa + ".");
+}
