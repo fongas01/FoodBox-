@@ -1,4 +1,5 @@
 // Variáveis criadas como solicitadas no passo 1
+//para que seja salvo o item escolhido
 let prato;
 let bebida;
 let sobremesa;
@@ -37,13 +38,13 @@ function escolherRefresco() {
 function escolherPudim() {
     document.getElementById("pudim").style.borderColor = "green";
     document.getElementById("sorvete").style.borderColor = "white";
-    sobremesa = "Pudim.";
+    sobremesa = "Pudim";
 }
 
 function escolherSorvete() {
     document.getElementById("sorvete").style.borderColor = "green";
     document.getElementById("pudim").style.borderColor = "white";
-    sobremesa = "Sorvete.";
+    sobremesa = "Sorvete";
 }
 
 // FAZER FUNCIONAR O BOTAO DE ENVIO DO PEDIDO PELO WHATSAPP
@@ -55,6 +56,12 @@ function escolherSorvete() {
 function finalizarPedido() {
     let mensagem;
 
-    mensagem = ("Olá, gostaria de pedir um combo: " +
-        prato + ", " + bebida ", " + "e " + sobremesa + ".");
+    mensagem = "Olá, gostaria de pedir um combo: " +
+        prato + ", " + bebida + " e " + sobremesa + ".";
+
+
+    //alert(mensagem); => funcionou o teste
+    // incluir o método de envio para whatsapp
+
+    window.open("https:\\wa.me/+5521993817779?text=" + mensagem);
 }
